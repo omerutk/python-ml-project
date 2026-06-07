@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "my_python_lib"
+version = "0.1.0"
+description = "An automated ML preprocessing pipeline"
+authors = [
+    { name="Ömer Utku Büyükkılıç", email="utku.buyukkilic@std.yildiz.edu.tr" },
+]
+dependencies = [
+    "numpy",
+    "pandas"
+]
